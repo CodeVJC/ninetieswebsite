@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <h1>The 90s</h1>
+    <form action="http://localhost:3000/login", target="_blank" method="GET">
+        <table>
+            <tr>
+                <th colspan="2">90s Relic</th>
+                <th>Nostalgia Factor</th>
+            </tr>
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Seinfeld_actors_montage.jpg" alt="seinfeld castmembers" style="width: 150px"></td>
+                <td>Seinfeld</td>
+                <td><input type="range" value="50" min="1" max="100" oninput="this.nextElementSibling.value = this.value"><output>50</output></td>
+            </tr>
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Bill_Clinton_1992_%28cropped%29.jpg" alt="Bill Clinton" style="width: 150px"></td>
+                <td>Bill Clinton</td>
+                <td><input type="range" value="50" min="1" max="100" oninput="this.nextElementSibling.value = this.value"><output>50</output></td>
+            </tr>
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Lava_lamps_%2816136876840%29.jpg" alt="a row of lava lamps" style="width: 150px"></td>
+                <td>lava lamps</td>
+                <td><input type="range" value="50" min="1" max="100" oninput="this.nextElementSibling.value = this.value"><output>50</output></td>
+            </tr>
+            <tr>
+                <td><img src="https://live.staticflickr.com/8224/8407852706_f80690723d_z.jpg" alt="Jordan dunking" style="width: 150px"></td>
+                <td>Michael Jordan</td>
+                <td><input type="range" value="50" min="1" max="100" oninput="this.nextElementSibling.value = this.value"><output>50</output></td>
+            </tr>
+            <tr>
+                <td><img src="https://live.staticflickr.com/1922/31530943078_21e331cc4c_k.jpg" alt="a video rental store" style="width: 150px"></td>
+                <td>video rental stores</td>
+                <td><input type="range" value="50" min="1" max="100" oninput="this.nextElementSibling.value = this.value"><output>50</output></td>
+            </tr>
+            <tr>
+                <td><img src="https://live.staticflickr.com/8460/7988017443_d2018b4ec3_c.jpg" alt="a payphone" style="width: 150px"></td>
+                <td>payphones</td>
+                <td><input type="range" value="50" min="1" max="100" oninput="this.nextElementSibling.value = this.value"><output>50</output></td>
+            </tr>
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Floppy_disk_%28back%29.jpg" alt="a floppy disk" style="width: 150px"></td>
+                <td>floppy disk</td>
+                <td><input type="range" name="value" value="50" min="1" max="100" oninput="this.nextElementSibling.value = this.value"><output>50</output></td>
+            </tr>
+        </table>
+        <div>
+            <input type="submit" value="Submit"><br>
+            <input type="reset" value="Reset"> 
+        </div>
+    </form>
+</body>
+</html>
