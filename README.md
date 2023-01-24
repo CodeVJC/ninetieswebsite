@@ -1,16 +1,17 @@
-# 90s website built like a website from the 90s and showcasing some famous people and things from the decade.
+# 90s homage website
 Only uses HTML and CSS, no Javascript.
 
 ## Featured Subjects
-
 *Seinfeld
-*Bill Clinton
+*floppy disks
 *lava lamps
 *Michael Jordon
-*video rental stores
 *pay phones
-*floppy disks
+*video rental stores
+*TGIF
+*cassette tapes
+*yak baks
+*Bill Clinton
 
 ## Rating and Submit
-
 There are sliding bars to choose your level of nostalgia for each subject, and then a Submit (and Reset) button to submit your ratings to the local host.
